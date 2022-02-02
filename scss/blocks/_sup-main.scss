@@ -1,0 +1,68 @@
+.sup-main__box{
+  display: flex;
+}
+
+.sup-main__title{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 80px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 45px;
+}
+
+.sup-main__text{
+  width: 100%;
+  max-width: 635px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #8F95A5;
+  margin-bottom: 45px;
+}
+
+.about__list{
+  display: flex;
+  padding-left: 0;
+}
+
+.about__item{
+  list-style-type: none;
+  text-align: center;
+}
+
+.about__item + .about__item{
+  margin-left: 135px;
+}
+
+.about__number{
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 80px;
+  color: #2A3246;
+}
+
+.about__text{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #8F95A5;
+}
+
+.about__item:nth-child(3){
+  width: 100%;
+  max-width: 195px;
+}
+
+.sup-main__img{
+  margin-left: 194px;
+}

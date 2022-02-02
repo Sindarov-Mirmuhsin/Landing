@@ -1,0 +1,102 @@
+.pricing{
+  margin-top: 188px;
+  margin-bottom: 261px;
+}
+
+.pricing__list{
+  display: flex;
+  padding-left: 0;
+}
+
+.pricing__item{
+  width: 100%;
+  max-width: 390px;
+  list-style-type: none;
+}
+
+.pricing__item + .pricing__item{
+  margin-left: 100px;
+}
+
+.pricing__info{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 80px;
+  color: #000000;
+  text-align: center;
+}
+
+.pricing__img{
+  height: 350px;
+}
+
+.pricing__span{
+  width: 100%;
+  max-width: 350px;
+  height: 1px;
+  display: block;
+  background: #C4C4C4;
+  margin-bottom: 28px;
+}
+
+.hero__title{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 48px;
+  color: #263238;
+}
+
+.pricing__title{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 48px;
+  color: #263238;
+}
+
+.pricing__text{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #8F95A5;
+}
+
+.pricing__text--mdf{
+  margin-bottom: 80px;
+}
+
+.money__box{
+  width: 100%;
+  max-width: 240px;
+  display: flex;
+  align-items: center;
+  background: #EEEEEE;
+  border-radius: 5px;
+}
+
+.money__number{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 45px;
+  color: #263238;
+  margin-left: 20px;
+}
+
+.money__info{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #546269; 
+  margin-left: 20px;
+}

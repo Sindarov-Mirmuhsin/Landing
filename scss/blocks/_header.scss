@@ -1,0 +1,38 @@
+.site-header__box{
+  display: flex;
+  align-items: center;
+  margin-top: 55px;
+  margin-bottom: 101px;
+}
+
+.site-header__list{
+  display: flex;
+  margin-left: 253px;
+  padding-left: 0;
+}
+
+.site-header__item{
+  list-style-type: none;
+}
+
+.site-header__item + .site-header__item{
+  margin-left: 24px;
+}
+
+.site-header__link{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.site-header__link--info{
+  margin-left: 253px;
+  padding: 17px 47px;
+  border: 2px solid #263238;
+  box-sizing: border-box;
+  border-radius: 5px;
+}

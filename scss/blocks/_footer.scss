@@ -1,0 +1,93 @@
+.footer__box{
+  display: flex;
+  margin-bottom: 133px;
+}
+
+.footer__list{
+  width: 100%;
+  max-width: 776px;
+  margin-left: 111px;
+}
+
+.footer__title{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 80px;
+  color: #000000;
+}
+
+.footer__text{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px; 
+  color: #8F95A5;
+  margin-bottom: 50px;
+}
+
+.form__input{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8F95A5;
+  padding: 30px 200px 30px 33px;
+  border: 1px solid #8F95A5;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.form__btn{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-left: 12px;
+  padding: 25px 81px;
+  background: #263238;
+  border-radius: 10px;
+}
+
+.footer__span{
+  display: block;
+  width: 100%;
+  max-width: 1360px;
+  height: 1px;
+  background: #C4C4C4;
+  margin-bottom: 31px;
+}
+
+.footer-mdf{
+  display: flex;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.footer-mdf__list{
+  display: flex;
+  margin-left: auto;
+}
+
+.footer-mdf__item{
+  list-style-type: none;
+}
+
+.footer-mdf__item + .footer-mdf__item{
+  margin-left: 20px;
+}
+
+.footer-mdf__link{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #8F95A5;
+  text-decoration: none;
+}
